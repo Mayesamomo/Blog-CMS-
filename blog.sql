@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 30, 2020 at 11:37 AM
+-- Generation Time: Apr 30, 2020 at 11:47 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.26
 
@@ -65,8 +65,8 @@ CREATE TABLE `messages` (
 --
 
 INSERT INTO `messages` (`id`, `name`, `email`, `message`, `time`) VALUES
-(1, ' rtkasodariya', 'kasodariyarajan@gmail.com', 'dfvd', '2015-09-06 20:03:55'),
-(2, ' spy_007', 'yashgolechha@ymail.com', 'popat', '2015-09-06 20:03:55');
+(3, ' Miki ', 'Miki@miki.com', 'hello word', '2020-04-30 10:46:51'),
+(4, ' Jane Doe', 'testing@gmail.com', 'well then', '2020-04-30 10:47:08');
 
 -- --------------------------------------------------------
 
@@ -232,7 +232,7 @@ ALTER TABLE `comments`
 -- AUTO_INCREMENT for table `messages`
 --
 ALTER TABLE `messages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `posts`

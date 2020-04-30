@@ -35,7 +35,8 @@ if(isset($_SESSION['username'])) {
 <div class="row">
 	<div class="bg">
 	<?php 
-	include("include/posts/post.php");
+	//include("include/posts/post.php");
+	echo"";
 	?>
 	</div>
 </div>

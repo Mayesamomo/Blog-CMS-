@@ -8,8 +8,12 @@ if(isset($_POST['submit'])) {
 
 	$username=$_POST['username'];
 	$password=$_POST['password'];
-
-
+     //$hash =$query="SELECT * FROM users WHERE username='$username' AND password='$password' ";
+//if (password_verify('rasmuslerdorf', $hash)) {
+  //  echo 'Password is valid!';
+//} else {
+  //  echo 'Invalid password.';
+//}
 	/* Check login  correctness*/
 	$query="SELECT * FROM users WHERE username='$username' AND password='$password' ";
 	$result=mysqli_query($conn , $query);

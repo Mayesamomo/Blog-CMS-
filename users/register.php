@@ -12,7 +12,7 @@ if(isset($_POST['submit'])) {
 	$firstname=$_POST['firstname'];
 	$emailid=$_POST['emailid'];
 	$password=$_POST['password'];
-
+	//$hashed_password = password_hash($password, PASSWORD_DEFAULT); I suggest hasing password in product
 	include("../db/dbconnect.php");
 
 	/* CHECK if same user or email exists or not ? */

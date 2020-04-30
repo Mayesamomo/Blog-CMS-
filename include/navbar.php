@@ -1,4 +1,4 @@
-<nav  class="navbar navbar-expand-lg navbar-dark primary-color>
+<nav class="navbar navbar-dark bg-dark " style="background-color: #e3f2fd;>
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
